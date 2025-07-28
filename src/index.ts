@@ -2,7 +2,7 @@
 import yargs, { type ArgumentsCamelCase } from 'yargs'
 import { hideBin } from 'yargs/helpers'
 import { startWebServer, startStdioServer } from './services'
-import { getOptions } from './utils'
+import { getApps, getOptions } from './utils'
 import 'dotenv/config'
 import pkg from '../package.json' with { type: 'json' }
 
@@ -38,9 +38,11 @@ if (!argv._[0]) {
 }
 
 async function startServer(mode: string, argv: ArgumentsCamelCase) {
+  const apps = getApps()
   const options = getOptions(argv, {
     name,
     version: pkg.version,
+    apps,
   })
   if (mode === 'stdio') {
     startStdioServer(options).catch(console.error)
