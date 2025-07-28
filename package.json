@@ -1,7 +1,7 @@
 {
-  "name": "@my-mcp-hub/node-mcp-server",
-  "version": "0.0.2",
-  "description": "MCP Server Template For Node.js",
+  "name": "computer-mcp-server",
+  "version": "0.0.1",
+  "description": "A computer mcp server",
   "author": "zhensherlock",
   "type": "module",
   "license": "MIT",

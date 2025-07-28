@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'my-mcp-hub/node-mcp-server'
+    if: github.repository == 'computer-mcp-server'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
