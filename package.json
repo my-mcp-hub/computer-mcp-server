@@ -6,7 +6,7 @@
   "type": "module",
   "license": "MIT",
   "bin": {
-    "node-mcp-server": "./build/index.js"
+    "computer-mcp-server": "./build/index.js"
   },
   "files": [
     "build",
@@ -69,7 +69,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/my-mcp-hub/node-mcp-server.git"
+    "url": "git+https://github.com/my-mcp-hub/computer-mcp-server.git"
   },
   "publishConfig": {
     "access": "public",

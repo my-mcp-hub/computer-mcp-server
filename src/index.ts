@@ -6,7 +6,7 @@ import { getApps, getOptions } from './utils'
 import 'dotenv/config'
 import pkg from '../package.json' with { type: 'json' }
 
-const name = 'node-mcp-server'
+const name = 'computer-mcp-server'
 
 const argv = await yargs()
   .scriptName(name)
