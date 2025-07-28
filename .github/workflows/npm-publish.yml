@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'computer-mcp-server'
+    if: github.repository == 'my-mcp-hub/computer-mcp-server'
     runs-on: ubuntu-latest
     permissions:
       contents: read
